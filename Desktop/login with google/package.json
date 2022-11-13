@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "file-downloader": "^2.1.0",
+    "js-file-downloader": "^1.1.24"
+  }
+}

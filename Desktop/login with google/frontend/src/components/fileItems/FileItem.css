@@ -1,0 +1,56 @@
+.list-item{
+    margin: 10px;
+   width: inherit;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+   
+    color: rgb(1, 0, 0);
+    /* background-color:coral; */
+    
+} 
+
+li {
+   
+    width:inherit;
+    border: 2px solid black;
+    /* list-style: none; */
+    margin:  0;
+    display: inline-block;
+    
+    flex: 1;
+    align-items: center;
+    padding: 0;
+    
+}
+p{
+    padding-left:0px;
+    flex: 1;
+    margin-right: 10px;
+}
+svg{
+
+    color: crimson;
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+.actions{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: left;
+    cursor: pointer;
+
+
+   
+}
+.FileName{
+    width: 50%;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    border: 1px solid red;
+    margin: 0;
+}
