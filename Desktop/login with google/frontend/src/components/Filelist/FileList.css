@@ -1,5 +1,6 @@
 .file-list{
     width: 90%;
+    position: fixed;
     /* height: 150px; */
     /* overflow-y: scroll; */
 }

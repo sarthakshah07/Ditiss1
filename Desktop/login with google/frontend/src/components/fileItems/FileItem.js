@@ -4,24 +4,29 @@ import{ AiOutlineDownload,AiFillFile,AiFillDelete,AiOutlineLoading} from 'react-
 import {FaSpinner} from 'react-icons/fa';
 
 const FileItem = ({fileName, deleteFile, downloadFile})=>{
-
+console.log(fileName.substring(0,30)+'...');
 //key={file.name}
     
     return(
        <li className="list-item">
-            
+        <div className="actions">
+            <div className="l1">
             <AiFillFile/>
-
-            <div className="actions">
-                <div className="FileName">
-                    {fileName}
-                </div>
-                { 
-                <AiFillDelete 
-                onClick={()=> deleteFile(fileName)}  />
-                }
-                <a href={"http://localhost:5040/files/" + fileName} download><AiOutlineDownload/></a>
             </div>
+            
+            <div className="FileName">
+                <a href={"http://localhost:5040/files/" + fileName} download>{fileName.substring(0,30)+'...' }</a>
+            </div>
+            <div className="nam">
+            { 
+            <AiFillDelete 
+            onClick={()=> deleteFile(fileName)}  className='del' />
+            }
+            </div>
+            <div className="down">
+            <a href={"http://localhost:5040/files/" + fileName} download><AiOutlineDownload/></a>
+            </div>
+        </div>
        </li>
     )
 }

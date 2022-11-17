@@ -1,11 +1,11 @@
 .file-card{
     
-    background-color: aqua;
+    /* background-color: aqua; */
     box-sizing: border-box;
     width: 100%;
-    height: 200px;
-    
-    padding: 1em;
+    height: 80px;
+    /* border: 1px solid black; */
+    /* padding: 5em; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,45 +13,87 @@
     flex-direction:row;
 }
 
-.file-inputs{
-    position: relative;
-   
-    margin-bottom: 1.5em;
-    height: 100%;
+#innerdiv{
+    position:relative;
+    /* margin-top: 20px; */
+    /* margin-bottom: 80px; */
+    /* height: 60%; */
+    margin-right: 30%;
+    
 }
-input{
+#inputid{
     
     position: relative;
-    max-width: 200px;
-    height: 100%;
-    z-index: 2;
+    /* max-width: 400px; */
+    /* height: 50px;
+    height: 100%; */
+    z-index: 1;
     cursor: pointer;
     opacity: 0;
+   
+}
+#div1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    
+}
+#div2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 30px;
+    
+    
+}
+.btn2{
+    background-color: #cfeefa;
+    border-radius: 10px;
+    border: 1px solid rgb(98, 122, 176);
+    font-size: 13px;
 }
 
-button{
-    position: absolute;
+/* .btn2{ */
+    
+    /* position: relative;
     top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+     */
+     /* width: auto;
+    height: 150%;
     z-index: 1;
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:space-evenly;
     align-items: center;
 
-    color: rgb(234, 227, 227);
-    background-color: #d63e3e;
-    height: 50px;
-    font-size: 1.1rem;
+    color: rgb(0, 0, 0); */
+    /* background-color: #a36d6d; 
+   background: #43C6AC;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    /* font-size: 1.1rem;
     cursor: pointer;
     border-radius: 4px;
     border: none;
-    outline: none;
-   
-    transition: background-color ;
-    box-shadow: 0px 8px 24px rgba(39, 119, 199, 0.5);
+    outline:none;
+   border-radius: 10px ;
+    transition: background-color ; */ 
+    /* box-shadow: 0px 8px 44px rgba(39, 119, 199, 0.5); */
+    
+    
+/* } */
+.line{
+    width: 90%;
+    margin: 0px;
+    margin-left: 30px;
+    background-color:rgb(98, 122, 176);
 }
-
-
+.circle{
+    transform: scale(1.5);
+    margin-top: 3px;
+    margin-right: 10px;
+}
 

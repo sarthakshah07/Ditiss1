@@ -1,0 +1,75 @@
+introduction
+tell me about urself --- Harsh
+dont say dont know
+
+why electronics to IT -- ratnesh
+fascinated and curious
+
+
+
+Core Java
+serialization
+threading
+reflection - getClass, Class.getDeclaredMethod(name, parametertype)
+getName, getConstructor 
+singleton class(can Create one and only one instance of an object)
+marker interface (Empty Interface ; use It provides run-time type
+ information about objects, so the compiler and JVM have additional
+ information about the object.) serialisable, clonable
+collection framework
+
+memory management(stack, heap, method)
+
+database
+normalisation data redundency 
+acid property (Atomicity Consistency Isolation Durabilty)
+trigger (automatically invokes whenever a special event in the database occurs)
+cursor (Cursor is a Temporary Memory or Temporary Work Station. It is Allocated by Database Server at the Time of Performing DML(Data Manipulation Language) operations on Table by User. Cursors are used to store Database Tables.)
+sqls queries
+indexes
+Views
+joins
+
+functions
+procedures
+
+
+Data Structure
+Basic structs till trees( Stack, Queue, LinkedList - types, Arrays - methods and ArrayList<Integer>,
+Trees(Binary, Full, Perfect, Complete), Red Black Tree, AVL Tree.
+searching & sorting - Linear, Binary, bubble, selection, insertion 
+graphs (Depth first, Breadth First, Dijkstra shortest path,  --- Rahul
+
+merge, quick sort
+trees - DFS BFS --- pending
+Prims algorithm)
+
+
+Advanced Java
+JDBC
+Servlets(init , service, destroy...http responce, do get, do post)
+JSP
+Hibernate
+Spring MVC
+Spring bean , 
+Annotations, Dependency Injection, Inversion of Control
+Spring Boot(jpa repos,crud, rest controller, API)
+AoP - Aspect Of Programming (too much)(if u are still alive) durgesh(YT) -- saikat
+
+
+AWS deployment
+
+
+
+React
+promise
+callbak fn
+Axios
+Sync async
+
+Project
+e commerce storefront 
+
+Axios => Dispatcher Servlet => Handler Mapping => DS
+Get ===> Java to json marshaling
+post ===> Json to java unmarshaling -- sarthak

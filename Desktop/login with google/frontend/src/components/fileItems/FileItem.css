@@ -1,29 +1,21 @@
 .list-item{
-    margin: 10px;
-   width: inherit;
-    justify-content: center;
+    margin: 15px;
+   width:500px;
+   position:relative;
+    justify-content: left;
     display: flex;
     flex-direction: row;
     flex: 10;
-   
-    color: rgb(1, 0, 0);
-    /* background-color:coral; */
+    padding: 10px;
+    color: rgb(252, 248, 248);
+    background: #d1effa; 
+    background: -webkit-linear-gradient(to right, #ffffff, #d1effa);
+   background: linear-gradient(to right, #ffffff, #d1effa);
     
+    /* border: 1px solid rgb(77, 72, 72);  */
 } 
 
-li {
-   
-    width:inherit;
-    border: 2px solid black;
-    /* list-style: none; */
-    margin:  0;
-    display: inline-block;
-    
-    flex: 1;
-    align-items: center;
-    padding: 0;
-    
-}
+
 p{
     padding-left:0px;
     flex: 1;
@@ -31,26 +23,55 @@ p{
 }
 svg{
 
-    color: crimson;
-    margin-left: 20px;
-    margin-right: 5px;
+    color: rgb(98, 122, 176);
+    /* margin-left: 20px;
+    margin-right: 5px; */
 
 }
 .actions{
-    display: flex;
-    /* flex-wrap: nowrap; */
-    justify-content: left;
-    cursor: pointer;
+     display: flex;
+    flex-wrap: nowrap; 
+    /* justify-content: left; */
+    /* cursor: pointer;  */
 
 
    
 }
 .FileName{
-    width: 50%;
-    position: relative;
-    justify-content: left;
-    align-items: center;
+    width:320px;
+    font-size: small;
+    position:absolute;
+    display: inline-block;
+    /* justify-content: left; */
+    /* align-items: center; */
     text-align: left;
-    border: 1px solid red;
-    margin: 0;
+    border: 1px none;
+    margin-left: 30px;
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+    /* overflow-x:scroll; */
+}
+.FileName a{
+    color: rgb(21, 20, 20);
+}
+.del{
+    /* position: relative; */
+    margin-left: 370px;
+    /* margin-right: 40px; */
+    position: absolute;
+    white-space:nowwrap;
+}
+.down{
+    margin-left: 450px;
+   position: absolute;
+    /* flex-direction: column; */
+   
+
+}
+.del :hover{
+    transform:scale(1.5);
+    
+}
+.down:hover{
+    transform: scale(1.5);
 }

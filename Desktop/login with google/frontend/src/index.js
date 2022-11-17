@@ -6,8 +6,10 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// root.style.height = "100%"
+
 root.render(
-  
      <Auth0Provider
     domain="dev-fpx8cyvaghw1sj6r.us.auth0.com"
     clientId="WifYdELO95OvG6gzoEoRkjQakolFHH9U"
@@ -15,7 +17,7 @@ root.render(
   >
     <App />
   </Auth0Provider>,
-  
+ 
 );
 
  
